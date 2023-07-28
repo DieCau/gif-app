@@ -8,5 +8,5 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GifApp />
-  </React.StrictMode>,
+  </React.StrictMode>, 
 )
