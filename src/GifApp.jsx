@@ -8,7 +8,7 @@ export const GifApp = () => {
     
     const onAddCategory = ( newCategory ) => {
         
-        setCategories([...categories, newCategory ])
+        setCategories([ newCategory, ...categories ])
     
     }
 
